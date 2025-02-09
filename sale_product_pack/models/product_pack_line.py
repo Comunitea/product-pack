@@ -9,7 +9,7 @@ class ProductPack(models.Model):
 
     sale_discount = fields.Float(
         'Sale discount (%)',
-        digits=dp.get_precision('sale_discount'),
+        digits=dp.get_precision('Discount'),
     )
 
     @api.multi
